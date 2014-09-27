@@ -1,0 +1,27 @@
+{
+  "name": "Fool Me Once : A Satirical News Detector",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Have you been duped by satirical news website? Do you know someone who is always sharing satirical news articles on Facebook who doesn't even bother to read the article before sharing? If so, then install and share Fool Me Once with all your friends. Our diligent Inspector Satire will notify you every time you land on a satirical news website with a friendly icon in your address bar. If you've been fooled before, well, you know the saying!",
+  "homepage_url": "http://extensionizr.com",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "options_page": "src/options/index.html",
+  "page_action": {
+    "default_icon": "icons/icon48.png",
+    "default_title": "Fool Me Once: Caution This Site is Known For Fake News",
+    "default_popup": ""
+  },
+  "permissions": [
+    "tabs",
+    "contentSettings"
+  ]
+}
