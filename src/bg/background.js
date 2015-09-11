@@ -2,10 +2,16 @@ function checkForValidUrl(tabId, changeInfo, tab) {
     var satiricalDomains = [
         'callthecops.net',
         'dailycurrant.com',
+        'duffelblog.com',
         'empirenews.net',
         'eyeofthetiber.com',
+        'freewoodpost.com',
+        'huzlers.com',
         'nationalreport.net',
+        'popbitch.com',
+        'sniffpetrol.com',
         'thebeaverton.com',
+        'thedailymash.co.uk',
         'theonion.com',
         'weeklyworldnews.com',
         'worldnewsdailyreport.com'
