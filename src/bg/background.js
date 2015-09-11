@@ -1,6 +1,4 @@
 function checkForValidUrl(tabId, changeInfo, tab) {
-    console.log('in checkForValidUrl');
-    
     var satiricalDomains = [
         'callthecops.net',
         'dailycurrant.com',
@@ -10,18 +8,13 @@ function checkForValidUrl(tabId, changeInfo, tab) {
         'thebeaverton.com',
         'theonion.com',
         'weeklyworldnews.com',
-        'worldnewsdailyreport.com'        
+        'worldnewsdailyreport.com'
     ];
 
     if(tab) {
-        console.log('tab param exists');
-
         var uri = new URI(tab.url.toLowerCase());
         var domain = uri.domain();
         var isSatire = satiricalDomains.indexOf(domain) >= 0;
-        
-        console.log('domain is = ' + domain);
-        console.log('is satire = ' + isSatire);
 
         if (isSatire) {
            // ... show the page action.
