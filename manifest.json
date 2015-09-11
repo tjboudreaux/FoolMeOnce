@@ -2,8 +2,8 @@
   "name": "Fool Me Once : A Satirical News Detector",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Have you been duped by satirical news website? Do you know someone who is always sharing satirical news articles on Facebook who doesn't even bother to read the article before sharing? If so, then install and share Fool Me Once with all your friends. Our diligent Inspector Satire will notify you every time you land on a satirical news website with a friendly icon in your address bar. If you've been fooled before, well, you know the saying!",
-  "homepage_url": "http://extensionizr.com",
+  "description": "Don't get duped into sharing another satirical new article. Fool Me Once will show an icon in your toolbar on satirical news sites.",
+  "homepage_url": "http://www.travisboudreaux.com",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
