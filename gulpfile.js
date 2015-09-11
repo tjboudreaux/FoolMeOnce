@@ -18,8 +18,10 @@ gulp.task('clean', function() {
 
 //copy static folders to build directory
 gulp.task('copy', function() {
-    gulp.src('src/fonts/**')
-        .pipe(gulp.dest('build/fonts'));
+    gulp.src('src/bg/**')
+        .pipe(gulp.dest('build/bg'));
+    gulp.src('src/options/**')
+        .pipe(gulp.dest('build/options'));
     gulp.src('src/icons/**')
         .pipe(gulp.dest('build/icons'));
     gulp.src('src/_locales/**')
