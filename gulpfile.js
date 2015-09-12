@@ -23,9 +23,9 @@ gulp.task('zip', ['jshint'], function() {
         distFileName = manifest.short_name + ' v' + manifest.version + '.zip';
 
     //build distributable extension
-    return gulp.src(['src/**'], {cwd:'src'})
+    return gulp.src(['src/**/*'], {base: '.'})
         .pipe(zip(distFileName))
-        .pipe(gulp.dest(__dirname + '/dist'));
+        .pipe(gulp.dest('dist'));
 });
 
 //run all tasks after build directory has been cleaned
