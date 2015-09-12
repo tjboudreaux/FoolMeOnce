@@ -1,7 +1,7 @@
 {
   "name": "Fool Me Once : A Satirical News Detector",
   "short_name": "Fool Me Once",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 2,
   "description": "Don't get duped into sharing another satirical new article. Fool Me Once will show an icon in your toolbar on satirical news sites.",
   "homepage_url": "http://www.travisboudreaux.com",
